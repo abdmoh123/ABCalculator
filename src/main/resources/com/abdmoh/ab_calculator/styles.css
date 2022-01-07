@@ -1,0 +1,43 @@
+.button {
+    -fx-font-size: 20px;
+    -fx-padding: 10px;
+    -fx-text-alignment: center;
+    -fx-border-radius: 5px;
+    -fx-effect: dropshadow(two-pass-box, rgba(0, 0, 0, 0.3), 7, 0.2, 2, 2);
+}
+
+.custom-button {
+    -fx-background-color: #6a6a6a;
+    -fx-pref-height: 60px;
+    -fx-pref-width: 60px;
+    -fx-text-fill: white;
+}
+
+.operator-button {
+    -fx-background-color: #ababab;
+    -fx-pref-height: 60px;
+    -fx-pref-width: 60px;
+    -fx-text-fill: white;
+}
+
+.custom-vbox {
+    -fx-padding: 7;
+    -fx-spacing: 7;
+    -fx-background-color: grey;
+}
+
+.custom-hbox {
+    -fx-spacing: 7;
+}
+
+#equals {
+    -fx-background-color: #cc1919;
+}
+
+#text_field {
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+    -fx-background-color: #6a6a6a;
+    -fx-border: none;
+    -fx-effect: innershadow(gaussian, rgba(0, 0, 0, 0.3), 7, 0.2, 2, 2);
+}
